@@ -1,0 +1,23 @@
+# Ignore maven build output and local environment
+target/
+.mvn/
+.mvnr/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+
+# Logs and temp
+*.log
+tmp/
+*.tmp
+
+# README, docs not needed in image
+README.md
