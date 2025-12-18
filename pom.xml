@@ -13,9 +13,9 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>crud-application</artifactId>
+    <artifactId>spring-boot-app</artifactId>
     <version>1.0.0</version>
-    <name>CRUD Application</name>
+    <name>Spring-Boot-App</name>
     <description>Spring Boot CRUD Operations with SQL Database</description>
 
     <properties>

@@ -1,11 +1,11 @@
-# CRUD Application - Spring Boot with SQL Database
+# Spring-Boot-App - Spring Boot with SQL Database
 
 A comprehensive Spring Boot 3.x CRUD application demonstrating best practices for building REST APIs with Java 17, Maven, and SQL databases (MySQL/PostgreSQL).
 
 ## Project Structure
 
 ```
-crud-application/
+spring-boot-app/
 ├── src/
 │   ├── main/
 │   │   ├── java/com/example/crud/
@@ -63,8 +63,8 @@ crud-application/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/crud-application.git
-cd crud-application
+git clone https://github.com/yourusername/spring-boot-app.git
+cd spring-boot-app
 ```
 
 2. **Create database**
@@ -263,7 +263,7 @@ The application provides structured error responses:
 ### Build JAR
 ```bash
 mvn clean package
-java -jar target/crud-application-1.0.0.jar
+java -jar target/spring-boot-app-1.0.0.jar
 ```
 
 ### Run with Maven
